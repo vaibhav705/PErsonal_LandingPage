@@ -1,0 +1,230 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  color: brown;
+  font-size: 6rem;
+  line-height: 2.0;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #1c2273;
+}
+
+h3 {
+  font-family: 'Lobster Two', cursive;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+}
+
+a {
+  color: #fff;
+}
+
+/* Section Title */
+#title {
+  background-color: #E9E2D0;
+  padding: 20% 15%;
+  text-align: center;
+  position: relative;
+}
+
+#title::after {
+  content: ' ';
+  width: 100%;
+  height: 5rem;
+  position: absolute;
+  bottom: -2.5rem;
+  margin-left: -50%;
+  background-color: #EA9085;
+  transform: skewY(3deg);
+}
+
+
+.title-image {
+  width: 50%;
+  border-radius: 100%;
+  margin: 80px 20px 2rem 100px;
+}
+
+.brand-name {
+  font-size: 2rem;
+}
+
+.nav-icon {
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: 'Merienda', cursive;
+  margin: 20px;
+}
+
+.navigation {
+  background-color: #D45D79;
+}
+
+
+/* Section About */
+#about {
+  background-color: #EA9085;
+  padding: 10% 15%;
+  position: relative;
+}
+
+#about::after {
+  content: ' ';
+  width: 100%;
+  height: 5rem;
+  position: absolute;
+  bottom: -2.5rem;
+  margin-left: -15%;
+  background-color: #eeb4aa;
+  transform: skewY(-3deg);
+}
+
+.about-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #FFE8E8;
+  padding-bottom: 10px 20px;
+}
+
+.about-title-q {
+  color: #1c2273;
+  font-size: 2rem;
+  padding-bottom: 0.625rem 1.25rem;
+}
+
+.get-in-toch-button {
+  padding-top: 1.25rem;
+  padding-bottom: 0.625rem;
+  font-family: 'Merienda', cursive;
+}
+
+.get-in-touch {
+  background-color: #8785A2;
+  color: #fff;
+}
+
+.get-in-touch:hover {
+  background-color: #FF9292;
+}
+
+.about-line {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+  color: #F0FFC2;
+  padding: 0.94rem 0;
+}
+
+
+/* Section skill & tool */
+#skill-tool {
+  background: #eeb4aa;
+  padding: 10% 15%;
+  position: relative;
+}
+
+.work-title, .skill-tool-title {
+  padding: 0.94rem 0;
+  color: #fff;
+}
+
+.box-icon {
+  color: #fff;
+}
+.icon{
+  padding: 2.5rem 0;
+}
+
+
+/* Section Work */
+#work {
+  background-color: #FFC7C7;
+  padding: 5% 15% 10% 15%;
+  position: relative;
+}
+
+#work::after {
+  content: "";
+  width: 100%;
+  height: 5rem;
+  position: absolute;
+  margin-left: -15%;
+  bottom: -2.5rem;
+  background-color: #D7B19D;
+  transform: skewY(3deg);
+}
+
+.work-img {
+  padding: 2rem;
+}
+.img-work{
+  width: 100%;
+  height: auto;
+}
+
+.work-discri {
+  padding: 1.875rem;
+}
+
+.btn-git {
+  font-family: 'Merienda', cursive;
+  background-color: #D45D79;
+}
+
+.work-row {
+  padding: 6.25rem 0;
+}
+
+
+/* Section footer */
+.class-footer {
+  background-color: #D7B19D;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.social-media {
+  margin: 3% 5% 5% 0;
+  color: #402218;
+}
+
+.button-icon {
+  margin: 3% 5% 5% 0;
+  color: #fff;
+}
+
+@media (max-width:990px){
+
+  h1{
+    font-size: 8rem;
+  }
+  p{
+    font-weight: bolder;
+  }
+  .title-container , .about-container , .skill-container , .work-container {
+    text-align: center;
+  }
+}
